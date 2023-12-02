@@ -1,0 +1,39 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    color: black;
+}
+
+/* Body styles */
+body {
+    min-height: 100vh;
+    background-color: lightblue;
+    display: flex;
+    flex-direction: column;
+}
+
+/* Header styles */
+header {
+    width: 100%;
+    position: fixed;
+    background-color: blue;
+    z-index: 99;
+    box-shadow: 0 2px 2px #3a3a3a;
+}
+
+
+/* Main content styles */
+main {
+    width: 100%;
+    flex-grow: 1;
+    flex-shrink: 0;
+    flex-basis: auto;
+    color: black;
+    margin-top: 50px;
+}
+
+/* Footer Styles */
+footer {
+    background-color: chartreuse;
+}
