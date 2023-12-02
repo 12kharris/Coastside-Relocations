@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&family=Nanum+Gothic&family=Oswald:wght@200;300;400;500;600;700&display=swap');
+
 * {
     box-sizing: border-box;
     padding: 0;
@@ -20,8 +22,20 @@ header {
     background-color: blue;
     z-index: 99;
     box-shadow: 0 2px 2px #3a3a3a;
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
 }
 
+header>a {
+    text-decoration: none;
+}
+
+h1 {
+    font-family: 'Nanum Gothic', 'Lato', sans-serif;
+    color: #fafafa;
+    text-decoration: none;
+}
 
 /* Main content styles */
 main {
