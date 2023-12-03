@@ -18,24 +18,73 @@ body {
 /* Header styles */
 header {
     width: 100%;
+    height: 35px;
     position: fixed;
     background-color: blue;
     z-index: 99;
     box-shadow: 0 2px 2px #3a3a3a;
     display: flex;
     justify-content: space-between;
-    align-items: baseline;
+    align-items: center;
+}
+
+a {
+    text-decoration: none;
 }
 
 header>a {
-    text-decoration: none;
+    vertical-align: center;
+    padding-left: 8px;
 }
 
 h1 {
     font-family: 'Nanum Gothic', 'Lato', sans-serif;
     color: #fafafa;
-    text-decoration: none;
+    font-size: 20px;
 }
+
+/* Navbar styles with dropdown toggle */
+nav {
+    position: absolute;
+    background-color: blue;
+    width: 100%;
+    left: 0;
+    padding-left: 8px;
+    padding-bottom: 3px;
+    box-shadow: 0 2px 2px #3a3a3a;
+    display: none;
+    top: 100%;
+}
+
+#menu {
+    list-style-type: none;
+}
+
+#menu>li {
+    font-family: 'Nanum Gothic', 'Lato', sans-serif;
+    margin-bottom: 0.5em;
+    font-weight: bold;
+}
+
+/* Nav toggle */
+#nav-toggle:checked~nav {
+    display: block;
+}
+
+#nav-toggle {
+    display: none;
+}
+
+.nav-toggle-label {
+    font-size: 2rem;
+    padding-right: 5px;
+    padding-top: 2px;
+}
+
+.text-white {
+    color: white;
+}
+
 
 /* Main content styles */
 main {
