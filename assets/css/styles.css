@@ -66,6 +66,10 @@ nav {
     font-weight: bold;
 }
 
+a:hover {
+    color:orange;
+}
+
 /* Nav toggle */
 #nav-toggle:checked~nav {
     display: block;
@@ -85,6 +89,10 @@ nav {
     color: white;
 }
 
+.active {
+    text-decoration: underline;
+    text-underline-position: under;
+}
 
 /* Main content styles */
 main {
