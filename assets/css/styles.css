@@ -102,7 +102,29 @@ main {
     flex-basis: auto;
     color: black;
     margin-top: 50px;
+    padding: 8px;
 }
+
+#portfolio {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.location-holder {
+    flex-shrink: 1;
+    min-width: 300px;
+    max-width: 800px;
+    max-height: 400px;
+    text-align: center;
+}
+
+.location-holder img {
+    width: 90%;
+    max-width: 400px;
+    background-color: #3a3a3a;
+}
+
 
 /* Footer Styles */
 footer {
