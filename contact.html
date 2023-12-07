@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Coastside Relocations</title>
+
+    <!-- Stylesheet -->
+    <link href="assets/css/styles.css" rel="stylesheet" />
+  </head>
+
+  <body>
+    <header>
+      <a href="index.html">
+        <h1>Coastside Relocations</h1>
+      </a>
+
+      <!-- Collapsable navbar using checkbox from Code Institute Love Running project -->
+      <input type="checkbox" id="nav-toggle" name="nav-toggle" />
+      <label for="nav-toggle" class="nav-toggle-label">
+        <i class="fa-solid fa-bars text-white"></i>
+      </label>
+      <nav>
+        <ul id="menu">
+          <li><a href="index.html" class="text-white">Home</a></li>
+          <li><a href="" class="active text-white">Contact</a></li>
+          <li><a href="" class="text-white">Sign Up</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <main>
+      <section id="contact-instructions">
+        <h2>Contact Us</h2>
+        <br />
+        <p>
+          Please fill out the form below if you want to ask us any questions
+          about one of our locations, enquire about turning your property into a
+          holidady home, or anything else. We're happy to help.
+        </p>
+        <br>
+      </section>
+
+      <section id="contact">
+        <form id="contact-form" method="POST" action="https://formdump.codeinstitute.net">
+            <h2>Your question</h2>
+            <br>
+            <label for="first-name">First Name <span class="required">*</span></label>
+            <input type="text" name="first-name" id="first-name" required>
+            <br>
+            <label for="last-name">Last Name</label>
+            <input type="text" name="last-name" id="last-name">
+            <br>
+            <label for="email">Email Address<span class="required">*</span></label>
+            <input type="email" name="email" id="email" required>
+            <br>
+            <!-- Add Question category from dropdown -->
+
+            <label for="question">Your Question<span class="required">*</span></label>
+            <input type="text" name="question" id="question" required>
+
+            <input type="submit" id="submit" value="Submit">
+        </form>
+        >
+      </section>
+    </main>
+
+    <footer>Footer</footer>
+  </body>
+
+  <!-- Font Awesome kit -->
+  <script
+    src="https://kit.fontawesome.com/3b20d96fa9.js"
+    crossorigin="anonymous"
+  ></script>
+</html>
