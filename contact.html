@@ -31,6 +31,7 @@
     </header>
 
     <main>
+      <a href="index.html" id="back-link"><i class="fa-solid fa-left-long"></i> Home</a>
       <section id="contact-instructions">
         <h2>Contact Us</h2>
         <br />
@@ -45,6 +46,7 @@
       <section id="contact">
         <form id="contact-form" method="POST" action="https://formdump.codeinstitute.net">
             <h2>Your question</h2>
+            <h4><span class="required">*</span> indicates a required field</h4>
             <br>
             <label for="first-name">First Name <span class="required">*</span></label>
             <input type="text" name="first-name" id="first-name" required>
@@ -55,8 +57,15 @@
             <label for="email">Email Address<span class="required">*</span></label>
             <input type="email" name="email" id="email" required>
             <br>
-            <!-- Add Question category from dropdown -->
-
+            <label for="category">Question Category<span class="required">*</span></label>
+            <select name="question-categories" id="question-categories" required>
+                <option name="pricing" selected>Pricing</option>
+                <option name="bookings">Bookings</option>
+                <option name="business-enquiries">Business Enquiries</option>
+                <option name="complaint">Complaint</option>
+                <option name="other">Other</option>
+            </select>
+            <br>
             <label for="question">Your Question<span class="required">*</span></label>
             <input type="text" name="question" id="question" required>
 
