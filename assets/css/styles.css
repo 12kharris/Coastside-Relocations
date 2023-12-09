@@ -151,8 +151,16 @@ main {
 
 .location-holder-small img {
     width: 90%;
-    
     background-color: #3a3a3a;
+}
+
+#location-map {
+    text-align: center;
+}
+
+#location-map iframe{
+    width: 80%;
+    height: 400px;
 }
 
 
