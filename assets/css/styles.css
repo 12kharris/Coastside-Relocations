@@ -68,7 +68,7 @@ nav {
 }
 
 a:hover {
-    color:orange;
+    color: orange;
 }
 
 /* Nav toggle */
@@ -110,7 +110,7 @@ main {
 #landing-intro {
     width: 100%;
     height: 50px;
-    background-color: rgba(0, 208, 255,0.7);
+    background-color: rgba(0, 208, 255, 0.7);
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -170,7 +170,7 @@ main {
     text-align: center;
 }
 
-#location-map iframe{
+#location-map iframe {
     width: 100%;
     height: 200px;
 }
@@ -182,4 +182,40 @@ footer {
     position: fixed;
     bottom: 0;
     width: 100vw;
+}
+
+/* media query for landscape phones and tablets */
+@media screen and (min-width: 576px) {
+    header {
+        height: 50px;
+    }
+
+    nav {
+        display: block;
+        position: relative;
+        box-shadow: none;
+        width: fit-content;
+        padding-right: 1rem;
+        /* top positioning, absolutes??*/
+    }
+
+    #menu {
+        display: flex;
+    }
+
+    #menu>li {
+        padding-left: 1rem;
+    }
+
+    .nav-toggle-label {
+        display: none;
+    }
+
+    #landing-intro {
+        height: 75px;
+    }
+
+    #landing-intro h3 {
+        font-size: 20px;
+    }
 }
