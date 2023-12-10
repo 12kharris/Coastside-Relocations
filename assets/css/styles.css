@@ -139,7 +139,7 @@ main {
     max-width: 800px;
     max-height: 400px;
     text-align: center;
-    padding-top: 5px;
+    padding-top: 10px;
 }
 
 .location-holder img {
@@ -182,8 +182,13 @@ main {
 .submit {
     padding: 3px 10px;
     margin-top: 3px;
+    background-color: blue;
+    color: #fafafa;
 }
 
+.submit:hover {
+    background-color: orange;
+}
 
 /* Footer Styles */
 footer {
