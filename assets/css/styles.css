@@ -190,6 +190,26 @@ main {
     background-color: orange;
 }
 
+/* Location page styles */
+.location-header {
+    font-size: 20px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+#main-photo {
+    text-align: center;
+}
+
+#main-photo>img{
+    width: 100%;
+    max-width: 680px;
+}
+
+#location-description {
+    padding: 10px 0;
+}
+
 /* Footer Styles */
 footer {
     background-color: blue;
