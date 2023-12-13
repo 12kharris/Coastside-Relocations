@@ -31,44 +31,65 @@
     </header>
 
     <main>
-      <a href="index.html" id="back-link"
-        ><i class="fa-solid fa-left-long"></i> Home</a
+      <a href="index.html" id="back-link" class="text-orange"
+        ><i class="fa-solid fa-left-long text-orange"></i> Home</a
       >
       <h2>Sign Up</h2>
+      <br />
 
       <section id="signup">
-        <h3>Sign up to receive the latest offers and news from us</h3>
-
-        <form
-          id="signup-form"
-          method="POST"
-          action="https://formdump.codeinstitute.net"
-        >
-          <label for="first-name"
-            >First Name<span class="required">*</span></label
-          >
-          <input type="text" name="first-name" id="first-name" required />
-          <br />
-          <label for="last-name"
-            >Last Name<span class="required">*</span></label
-          >
-          <input type="text" name="last-name" id="last-name" required />
-          <br />
-          <label for="email"
-            >Email Address<span class="required">*</span></label
-          >
-          <input type="email" name="email" id="email" required />
-            <br>
-            <label for="password">Password<span class="required">*</span></label>
-            <input type="password" name="password" id="password" required>
+        <h3>
+          Sign up to receive the latest offers and news from us
           <br>
-          <label for="offers">Offers</label>
-          <input type="radio" name="preference-offers" id="offers">
-          <label for="news">News</label>
-          <input type="radio" name="preference-news" id="news">
-          <label for="new-additions">New Additions</label>
-          <input type="radio" name="preference-new" id="new-additions">
-        </form>
+          <span class="required">*</span> indicates a required field
+        </h3>
+        <div id="sign-up-container">
+          <form
+            id="signup-form"
+            method="POST"
+            action="https://formdump.codeinstitute.net"
+          >
+            <label for="first-name"
+              >First Name<span class="required">*</span></label
+            >
+            <input type="text" name="first-name" id="first-name" required />
+            <br />
+            <label for="last-name"
+              >Last Name<span class="required">*</span></label
+            >
+            <input type="text" name="last-name" id="last-name" required />
+            <br />
+            <label for="email"
+              >Email Address<span class="required">*</span></label
+            >
+            <input type="email" name="email" id="email" required />
+            <br />
+            <label for="password"
+              >Password<span class="required">*</span></label
+            >
+            <input type="password" name="password" id="password" required />
+            <br />
+            <h4 class="text-white">Communication Preferences</h4>
+            <div id="signup-radio-buttons">
+              <div>
+                <label for="offers">Offers</label>
+                <input type="radio" name="preference-offers" id="offers" />
+              </div>
+              <div>
+                <label for="news">News</label>
+                <input type="radio" name="preference-news" id="news" />
+              </div>
+              <div>
+                <label for="new-additions">New Additions</label>
+                <input type="radio" name="preference-new" id="new-additions" />
+              </div>
+            </div>
+            <br />
+            <div id="submit-div">
+            <input type="submit" id="submit" value="Sign Up" />
+            </div>
+          </form>
+        </div>
       </section>
     </main>
 
