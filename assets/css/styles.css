@@ -318,12 +318,17 @@ footer li {
 /* media query for landscape phones and tablets */
 @media screen and (min-width: 576px) {
 
+    header>a {
+        vertical-align: center;
+        padding-left: 20px;
+    }
+
     nav {
         display: block;
         position: relative;
         box-shadow: none;
         width: fit-content;
-        padding-right: 1rem;
+        padding-right: 20px;
         top: 5px;
     }
 
@@ -339,6 +344,10 @@ footer li {
         display: none;
     }
 
+    main {
+        padding: 20px;
+    }
+
     #landing-intro {
         margin-top: 20px;
     }
@@ -350,5 +359,9 @@ footer li {
     /* Sign Up page styles */
     #signup {
         text-align: center;
+    }
+
+    #signup-form input {
+        height: 30px;
     }
 }
