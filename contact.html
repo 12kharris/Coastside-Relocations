@@ -17,7 +17,12 @@
       </a>
 
       <!-- Collapsable navbar using checkbox from Code Institute Love Running project -->
-      <input type="checkbox" id="nav-toggle" name="nav-toggle" />
+      <input
+        type="checkbox"
+        id="nav-toggle"
+        name="nav-toggle"
+        aria-label="toggle navigation menu"
+      />
       <label for="nav-toggle" class="nav-toggle-label">
         <i class="fa-solid fa-bars text-white"></i>
       </label>
@@ -52,7 +57,11 @@
     </header>
 
     <main>
-      <a href="index.html" id="back-link" class="text-orange" aria-label="navigate back to home"
+      <a
+        href="index.html"
+        id="back-link"
+        class="text-orange"
+        aria-label="navigate back to home"
         ><i class="fa-solid fa-left-long text-orange"></i> Home</a
       >
       <section id="contact-instructions">
@@ -85,6 +94,7 @@
               id="first-name"
               class="input-text"
               required
+              aria-label="enter your first name here"
             />
             <br />
             <label for="last-name" class="text-white">Last Name</label>
@@ -93,6 +103,7 @@
               name="last-name"
               id="last-name"
               class="input-text"
+              aria-label="enter your last name here"
             />
             <br />
             <label for="email" class="text-white"
@@ -104,6 +115,7 @@
               id="email"
               required
               class="input-text"
+              aria-label="enter your last name here"
             />
             <br />
             <label for="category" class="text-white"
@@ -113,6 +125,7 @@
               name="question-categories"
               id="question-categories"
               required
+              aria-label="select a question category"
             >
               <option name="pricing" selected>Pricing</option>
               <option name="bookings">Bookings</option>
@@ -124,10 +137,19 @@
             <label for="question" class="text-white"
               >Your Question<span class="required">*</span></label
             >
-            <textarea id="question" name="question"></textarea>
+            <textarea
+              id="question"
+              name="question"
+              aria-label="enter your question here"
+            ></textarea>
             <br />
             <div id="submit-div">
-              <input type="submit" id="submit" value="Submit" />
+              <input
+                type="submit"
+                id="submit"
+                value="Submit"
+                aria-label="click to submit your question"
+              />
             </div>
           </form>
         </div>
