@@ -18,28 +18,28 @@
       </a>
 
       <!-- Collapsable navbar using checkbox from Code Institute Love Running project -->
-      <input type="checkbox" id="nav-toggle" name="nav-toggle" />
+      <input type="checkbox" id="nav-toggle" name="nav-toggle" aria-label="toggle navigation bar"/>
       <label for="nav-toggle" class="nav-toggle-label">
         <i class="fa-solid fa-bars text-white"></i>
       </label>
       <nav>
         <ul id="menu">
-          <li><a href="index.html" class="text-white">Home</a></li>
-          <li><a href="contact.html" class="text-white">Contact</a></li>
-          <li><a href="signup.html" class="text-white">Sign Up</a></li>
+        <li><a href="" class="active text-white" aria-label="navigate to home page">Home</a></li>
+        <li><a href="contact.html" class="text-white" aria-label="navigate to contact page">Contact</a></li>
+        <li><a href="signup.html" class="text-white" aria-label="navigate to sign up page">Sign Up</a></li>
         </ul>
       </nav>
     </header>
 
     <main>
-      <a href="index.html" id="back-link"
+      <a href="index.html" id="back-link" aria-label="navigate back to home page"
         ><i class="fa-solid fa-left-long"></i> Home</a
       >
       <h2 class="location-header">32 West Cliffe Avenue, Broadstairs</h2>
 
       <section id="location-main-gallery">
         <div id="main-photo">
-          <img src="assets/images/location1-main-photo.webp" alt="placeholder" />
+          <img src="assets/images/location1-main-photo.webp" alt="contemporary home with foliage covering exterior" />
         </div>
         <!-- Maybe have 2 main images as there is a lot of empty space on wide screens -->
       </section>
@@ -56,16 +56,16 @@
       <section id="location-gallery">
         <div id="gallery-container">
           <div class="location-holder-small">
-            <img src="assets/images/location1-livingroom.webp" alt="placeholder" />
+            <img src="assets/images/location1-livingroom.webp" alt="cosy living room with couch and pillows" />
           </div>
           <div class="location-holder-small">
-            <img src="assets/images/location1-kitchen.webp" alt="placeholder" />
+            <img src="assets/images/location1-kitchen.webp" alt="large modern kitchen" />
           </div>
           <div class="location-holder-small">
-            <img src="assets/images/location1-bedroom1.webp" alt="placeholder" />
+            <img src="assets/images/location1-bedroom1.webp" alt="small well lighted bedroom" />
           </div>
           <div class="location-holder-small">
-            <img src="assets/images/location1-bedroom2.webp" alt="placeholder" />
+            <img src="assets/images/location1-bedroom2.webp" alt="large master bedroom with king size bed" />
           </div>
         </div>
       </section>
@@ -85,8 +85,7 @@
         <!-- iframe of google maps created from share option on google maps -->
         <iframe
           src="https://maps.google.com/maps?q=51.355326, 1.440813&z=15&output=embed"
-        >
-        </iframe>
+        ></iframe>
       </section>
     </main>
 
