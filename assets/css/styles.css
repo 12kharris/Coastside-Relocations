@@ -110,7 +110,7 @@ main {
 #landing-intro {
     width: 100%;
     height: 50px;
-    background-color: rgba(0, 208, 255, 0.7);
+    background-color: blue;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -120,6 +120,7 @@ main {
 #landing-intro>h3 {
     text-align: center;
     font-size: 15px;
+    color: white;
 }
 
 #locations h3 {
@@ -339,7 +340,7 @@ footer li {
     }
 
     #landing-intro {
-        height: 75px;
+        margin-top: 20px;
     }
 
     #landing-intro h3 {
