@@ -364,4 +364,9 @@ footer li {
     #signup-form input {
         height: 30px;
     }
+
+    /* location page styles */
+    #location-map {
+        padding-top: 15px;
+    }
 }
