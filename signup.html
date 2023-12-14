@@ -23,15 +23,40 @@
       </label>
       <nav>
         <ul id="menu">
-          <li><a href="index.html" class="text-white">Home</a></li>
-          <li><a href="contact.html" class="text-white">Contact</a></li>
-          <li><a href="" class="active text-white">Sign Up</a></li>
+          <li>
+            <a
+              href=""
+              class="active text-white"
+              aria-label="navigate to home page"
+              >Home</a
+            >
+          </li>
+          <li>
+            <a
+              href="contact.html"
+              class="text-white"
+              aria-label="navigate to contact page"
+              >Contact</a
+            >
+          </li>
+          <li>
+            <a
+              href="signup.html"
+              class="text-white"
+              aria-label="navigate to sign up page"
+              >Sign Up</a
+            >
+          </li>
         </ul>
       </nav>
     </header>
 
     <main>
-      <a href="index.html" id="back-link" class="text-orange"
+      <a
+        href="index.html"
+        id="back-link"
+        class="text-orange"
+        aria-label="navigate back to home"
         ><i class="fa-solid fa-left-long text-orange"></i> Home</a
       >
       <h2>Sign Up</h2>
@@ -40,7 +65,7 @@
       <section id="signup">
         <h3>
           Sign up to receive the latest offers and news from us
-          <br>
+          <br />
           <span class="required">*</span> indicates a required field
         </h3>
         <div id="sign-up-container">
@@ -52,41 +77,85 @@
             <label for="first-name"
               >First Name<span class="required">*</span></label
             >
-            <input type="text" name="first-name" id="first-name" required />
+            <input
+              type="text"
+              name="first-name"
+              id="first-name"
+              required
+              aria-label="enter your first name here"
+            />
             <br />
             <label for="last-name"
               >Last Name<span class="required">*</span></label
             >
-            <input type="text" name="last-name" id="last-name" required />
+            <input
+              type="text"
+              name="last-name"
+              id="last-name"
+              required
+              aria-label="enter your last name here"
+            />
             <br />
             <label for="email"
               >Email Address<span class="required">*</span></label
             >
-            <input type="email" name="email" id="email" required />
+            <input
+              type="email"
+              name="email"
+              id="email"
+              required
+              aria-label="enter your email address here"
+            />
             <br />
             <label for="password"
               >Password<span class="required">*</span></label
             >
-            <input type="password" name="password" id="password" required />
+            <input
+              type="password"
+              name="password"
+              id="password"
+              required
+              aria-label="enter a password"
+            />
             <br />
             <h4 class="text-white">Communication Preferences</h4>
             <div id="signup-radio-buttons">
               <div>
                 <label for="offers">Offers</label>
-                <input type="radio" name="preference-offers" id="offers" />
+                <input
+                  type="radio"
+                  name="preference-offers"
+                  id="offers"
+                  aria-label="select offers"
+                />
               </div>
               <div>
                 <label for="news">News</label>
-                <input type="radio" name="preference-news" id="news" />
+                <input
+                  type="radio"
+                  name="preference-news"
+                  id="news"
+                  aria-label="select news"
+                />
               </div>
               <div>
                 <label for="new-additions">New Additions</label>
-                <input type="radio" name="preference-new" id="new-additions" />
+                <input
+                  type="radio"
+                  name="preference-new"
+                  id="new-additions"
+                  aria-label="select new additions"
+                />
               </div>
             </div>
             <br />
             <div id="submit-div">
-            <input type="submit" id="submit" value="Sign Up" />
+              <input
+                type="submit"
+                id="submit"
+                value="Sign Up"
+                aria-label="click to sign up"
+              />
             </div>
           </form>
         </div>
