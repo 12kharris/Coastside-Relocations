@@ -42,35 +42,15 @@ In this section, you should go over the different parts of your project, and des
   - This form also features validation and required fields.
   - [IMAGE OF SIGN UP PAGE]
 
-![Meetup Times](https://github.com/lucyrush/readme-template/blob/master/media/love_running_times.png)
-
 - __The Footer__
 
-  - The footer section includes links to the relevant social media sites for Love Running. The links will open to a new tab to allow easy navigation for the user.
-  - The footer is valuable to the user as it encourages them to keep connected via social media
-
-![Footer](https://github.com/lucyrush/readme-template/blob/master/media/love_running_footer.png)
-
-- __Gallery__
-
-  - The gallery will provide the user with supporting images to see what the meet ups look like.
-  - This section is valuable to the user as they will be able to easily identify the types of events the organisation puts together.
-
-![Gallery](https://github.com/lucyrush/readme-template/blob/master/media/love_running_gallery.png)
-
-- __The Sign Up Page__
-
-  - This page will allow the user to get signed up to Love Running to start their running journey with the community. The user will be able specify if they would like to take part in road, trail or both types of running. The user will be asked to submit their full name and email address.
-
-![Sign Up](https://github.com/lucyrush/readme-template/blob/master/media/love_running_signup.png)
-
-For some/all of your features, you may choose to reference the specific project files that implement them.
-
-In addition, you may also use this section to discuss plans for additional features to be implemented in the future:
+  - The footer conatins links to the major social media platforms if the user wishes to visit them.
+  - The footer is always visible on the page.
 
 ### Features Left to Implement
 
-- Another feature idea
+- An ability to book directly through the website on each location page. A form which features a date selection from a calendar with dates blocked out for other bookings.
+- There is a lot of empty space on large screens for the location pages so having the pictures have a menu which can be selected from and the chosen image displayed as the main image would help this.
 
 ## Testing
 
