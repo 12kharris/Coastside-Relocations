@@ -12,33 +12,35 @@ Coastside Relocations is a webiite which advertises a portfolio of properties in
 
   - On all pages is a navigation bar where users can navigate to the home page, the contact page and the sign up page. On small screens this is collapsable. [IMAGE OF NAV BAR IN COLLAPSABLE AND NORMAL STATE]
 
-- __The landing page image__
+- __The landing page__
 
   - The landing page features a brief sentence in a banner for the goal of the company so it is clear to a user what the company does.
   - The landing page also features images and titles of the properties which the company is advertising for people to stay in. The design is responsive so the images will be displayed appropriately on various screen sizes. There are also buttons which the user can click to get more information on the property.
   - There is a short 'About Us' paragraph providing more detail on what the company can offer for a user.
   - Finally on the landing page there is an audio clip which a user can interact with to play sea sounds to get them in the mood for a seaside holiday.
-  - [IMAGE OF LANDING PAGE]
+  ![Landing Page](https://github.com/12kharris/Coastside-Relocations/blob/main/assets/images/readme-images/coastside-landing.png?raw=true)
   
 - __The Location Pages__
   - There is a page for each location advertised by the company. They each have the same structure and are used to provide more information on a property.
   - There is a main picture of the exterior of the property followed by a paragraph describing the property so a user can decide whether or not it is the type of property they would like to stay in.
   - Beneath the property description there is a collection of images of the interior of the property for the user to look at and give them more of an idea as to whether they would like to choose this property to stay in.
   - Finally at the bottom of each location page is a google map showing the location of the property. A user can click on this map and it will open google maps in a sepaarte tab for them to explore.
-  - [IMAGE OF LOCATION PAGE]
+![Location Page Image 1](https://github.com/12kharris/Coastside-Relocations/blob/main/assets/images/readme-images/coastside-location-1.png?raw=true)
+![Location page image 2](https://github.com/12kharris/Coastside-Relocations/blob/main/assets/images/readme-images/coastside-location-2.png?raw=true)
 
 - __The Contact Us Page__
 
   - This page features a form which users can fill out to submit a question to the company.
   - The form has validation and some fields are required.
   - There also features a text area where users can type their question.
-  - [IMAGE OF CONTACT PAGE]
+![Contact Page](https://github.com/12kharris/Coastside-Relocations/blob/main/assets/images/readme-images/coastside-contact-1.png?raw=true)
+![Contact form](https://github.com/12kharris/Coastside-Relocations/blob/main/assets/images/readme-images/coastside-contact-2.png?raw=true)
 
 - __The Sign Up Page__
 
   - This page features another form for a user to sign up to receive emails corresponding to the categories of information they wish to receive in the 'Communication Preferences' buttons.
   - This form also features validation and required fields.
-  - [IMAGE OF SIGN UP PAGE]
+![Sign up page](https://github.com/12kharris/Coastside-Relocations/blob/main/assets/images/readme-images/coastside-signup.png?raw=true)
 
 - __The Footer__
 
@@ -53,6 +55,8 @@ Coastside Relocations is a webiite which advertises a portfolio of properties in
 ## Testing
 
 All navigation links on all pages were tested to ensure they navigated correctly. The Chrome dev tools were used to simulate different screen sizes. On small screens, there is less padding of the main content so the page fills the vast majority of the screen width. On larger screens, a small amount of padding was introduced to focus the content more. Furthermore, on larger screens, the navigation menu is not collapsed. Extensive flex box use for containers means that content will stretch to fill the screen in the case of sections with multiple images for example.
+
+![Website on different screens](https://github.com/12kharris/Coastside-Relocations/blob/main/assets/images/readme-images/coastside-am-I-responsive.png?raw=true)
 
 Navigating back to the home page is available on every page of the website and links and buttons will change colour when hovered over to provide good user feedback. If a user is on a page featured in the main navbar, this link will be underlined to show this. The site layout is intuitive and high contrast and consistent colours are used to clearly display to the user whether something is a link, text or button.
 
