@@ -2,9 +2,7 @@
 
 [Link to final deployed Project](https://12kharris.github.io/Coastside-Relocations/)
 
-Coastside Relocations is a webiite which advertises a portfolio of properties in which a user can chose to stay in when goin on a holiday by the sea. The site is targeted to those who wish to stay in high quality accommodation on their seaside retreat. The site will be provide a description of the property as well as its location to aid the user's choice. There are also pages for the user to contact the company and sign up for more information. 
-
-![Responsice Mockup](https://github.com/lucyrush/readme-template/blob/master/media/love_running_mockup.png)
+Coastside Relocations is a webiite which advertises a portfolio of properties in which a user can chose to stay in when goin on a holiday by the sea. The site is targeted to those who wish to stay in high quality accommodation on their seaside retreat. The site will be provide a description of the property as well as its location to aid the user's choice. There are also pages for the user to contact the company and sign up for more information.
 
 ## Features
 
@@ -29,20 +27,20 @@ In this section, you should go over the different parts of your project, and des
   - There is a main picture of the exterior of the property followed by a paragraph describing the property so a user can decide whether or not it is the type of property they would like to stay in.
   - Beneath the property description there is a collection of images of the interior of the property for the user to look at and give them more of an idea as to whether they would like to choose this property to stay in.
   - Finally at the bottom of each location page is a google map showing the location of the property. A user can click on this map and it will open google maps in a sepaarte tab for them to explore.
+  - [IMAGE OF LOCATION PAGE]
 
-![Landing Page](https://github.com/lucyrush/readme-template/blob/master/media/love_running_landing.png)
+- __The Contact Us Page__
 
-- __Club Ethos Section__
+  - This page features a form which users can fill out to submit a question to the company.
+  - The form has validation and some fields are required.
+  - There also features a text area where users can type their question.
+  - [IMAGE OF CONTACT PAGE]
 
-  - The club ethos section will allow the user to see the benefits of joining the Love Running meetups, as well as the benefits of running overall.
-  - This user will see the value of signing up for the Love Running meetups. This should encourage the user to consider running as their form of exercise.
+- __The Sign Up Page__
 
-![Club Ethos](https://github.com/lucyrush/readme-template/blob/master/media/love_running_ethos.png)
-
-- __Meetup Times section__
-
-  - This section will allow the user to see exactly when the meetups will happen, where they will be located and how long the run will be in kilometers.
-  - This section will be updated as these times change to keep the user up to date.
+  - This page features another form for a user to sign up to receive emails corresponding to the categories of information they wish to receive in the 'Communication Preferences' buttons.
+  - This form also features validation and required fields.
+  - [IMAGE OF SIGN UP PAGE]
 
 ![Meetup Times](https://github.com/lucyrush/readme-template/blob/master/media/love_running_times.png)
 
