@@ -10,7 +10,9 @@ Coastside Relocations is a webiite which advertises a portfolio of properties in
 
 - __Navigation Bar__
 
-  - On all pages is a navigation bar where users can navigate to the home page, the contact page and the sign up page. On small screens this is collapsable. [IMAGE OF NAV BAR IN COLLAPSABLE AND NORMAL STATE]
+  - On all pages is a navigation bar where users can navigate to the home page, the contact page and the sign up page. On small screens this is collapsable.
+![Collapsable navbar](https://github.com/12kharris/Coastside-Relocations/blob/main/assets/images/readme-images/coastside-smallnav.png?raw=true)
+![Large navbar](https://github.com/12kharris/Coastside-Relocations/blob/main/assets/images/readme-images/coastside-largenav.png?raw=true)
 
 - __The landing page__
 
