@@ -365,6 +365,16 @@ footer li {
         height: 30px;
     }
 
+    .radio-container {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+    }
+
+    .radio-container > label {
+        padding: 10px;
+    }
+
     /* location page styles */
     #location-map {
         padding-top: 15px;

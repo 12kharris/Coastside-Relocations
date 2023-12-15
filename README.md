@@ -6,8 +6,6 @@ Coastside Relocations is a webiite which advertises a portfolio of properties in
 
 ## Features
 
-In this section, you should go over the different parts of your project, and describe each in a sentence or so. You will need to explain what value each of the features provides for the user, focusing on who this website is for, what it is that they want to achieve and how your project is the best way to help them achieve these things.
-
 ### Existing Features
 
 - __Navigation Bar__
@@ -18,7 +16,7 @@ In this section, you should go over the different parts of your project, and des
 
   - The landing page features a brief sentence in a banner for the goal of the company so it is clear to a user what the company does.
   - The landing page also features images and titles of the properties which the company is advertising for people to stay in. The design is responsive so the images will be displayed appropriately on various screen sizes. There are also buttons which the user can click to get more information on the property.
-  - There ia a short 'About Us' paragraph providing more detail on what the company can offer for a user.
+  - There is a short 'About Us' paragraph providing more detail on what the company can offer for a user.
   - Finally on the landing page there is an audio clip which a user can interact with to play sea sounds to get them in the mood for a seaside holiday.
   - [IMAGE OF LANDING PAGE]
   
@@ -89,5 +87,4 @@ The live link can be found here - [Deployed Website](https://12kharris.github.io
 ### Media
 
 - All images were taken from [Pixabay](https://pixabay.com/).
-- The audio clip was downloaded from [Freesound](https://freesound.org/).
-
+- The audio clip was downloaded from [Freesound](https://freesound.org/)
